@@ -1,0 +1,13 @@
+addons:
+  apt:
+    packages:
+      - libyaml-dev
+
+branches:
+  only:
+  - master
+
+language: python
+
+script:
+  - pytest
